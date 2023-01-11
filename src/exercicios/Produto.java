@@ -8,8 +8,7 @@ public class Produto {
 	boolean diaEspecial = false;
 	
 	Produto(){}
-	Produto(String nomeInicial, double precoInicial, double descontoInicial){
-		desconto = descontoInicial;
+	Produto(String nomeInicial, double precoInicial){
 		nome = nomeInicial;
 		preco = precoInicial;
 		
